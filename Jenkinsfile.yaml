@@ -1,0 +1,10 @@
+pipeline:
+    agent:
+      node:
+        label: "master"
+    tools:
+      jdk: default
+    stages:
+      - stage: Basic Stage
+        steps:
+          - echo "Basic Stage"
