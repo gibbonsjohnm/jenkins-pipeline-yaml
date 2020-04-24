@@ -1,4 +1,6 @@
 pipeline:
+    environment:
+        KEY1: "VAL1"
     agent:
       node:
         label: "master"
